@@ -1,0 +1,22 @@
+{
+  "name": "cabloy-website",
+  "version": "1.0.0",
+  "description": "cabloy website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhennann/cabloy-website.git"
+  },
+  "author": "zhennann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhennann/cabloy-website/issues"
+  },
+  "homepage": "https://github.com/zhennann/cabloy-website#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.11.0",
+    "eslint-config-egg": "^5.1.1",
+    "eslint-plugin-vuefix": "^0.2.1"
+  },
+  "dependencies": {}
+}
