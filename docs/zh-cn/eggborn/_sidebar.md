@@ -1,3 +1,15 @@
-* [指南](/zh-cn/eggborn/guide/)
+* 指南
     - [介绍](/zh-cn/eggborn/guide/)
-* [Guide](guide/)
+    - [快速开始](/zh-cn/eggborn/guide/getting-started.md)
+    - [架构图](/zh-cn/eggborn/guide/architecture-diagram.md)
+* 模块开发
+    - [介绍](/zh-cn/eggborn/module/)
+    - [模块前端开发](/zh-cn/eggborn/module/front.md)
+    - [模块后端开发](/zh-cn/eggborn/module/backend.md)
+    - [模块管理](/zh-cn/eggborn/module/management.md)
+    - [模块测试](/zh-cn/eggborn/module/test.md)
+* 项目配置
+    - [前端配置](/zh-cn/eggborn/configuration/front.md)
+    - [后端配置](/zh-cn/eggborn/configuration/backend.md)
+* [项目部署](/zh-cn/eggborn/deployment.md)
+* [Github贡献](/zh-cn/eggborn/github.md)
