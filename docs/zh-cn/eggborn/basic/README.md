@@ -1,4 +1,4 @@
-# Introduction
+# 介绍
 
 ## EggBorn.js是什么
 > EggBorn.js是一款顶级Javascript全栈开发框架。

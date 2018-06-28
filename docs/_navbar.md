@@ -1,5 +1,5 @@
 * [CabloyJS](/)
-* [EggBornJS](/eggborn/guide/)
+* [EggBornJS](/eggborn/basic/)
 * Languages
     * [English](/)
     * [Chinese](/zh-cn/)

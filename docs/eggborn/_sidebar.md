@@ -1,7 +1,7 @@
-* Guide
-    - [Introduction](/eggborn/guide/)
-    - [Getting Started](/eggborn/guide/getting-started.md)
-    - [Architecture Diagram](/eggborn/guide/architecture-diagram.md)
+* The Basics
+    - [Introduction](/eggborn/basic/)
+    - [Getting Started](/eggborn/basic/getting-started.md)
+    - [Architecture Diagram](/eggborn/basic/architecture-diagram.md)
 * Module Development
     - [Introduction](/eggborn/module/)
     - [Module Frontend Development](/eggborn/module/front.md)

@@ -1,7 +1,7 @@
-* 指南
-    - [介绍](/zh-cn/eggborn/guide/)
-    - [快速开始](/zh-cn/eggborn/guide/getting-started.md)
-    - [架构图](/zh-cn/eggborn/guide/architecture-diagram.md)
+* 基本知识
+    - [介绍](/zh-cn/eggborn/basic/)
+    - [快速开始](/zh-cn/eggborn/basic/getting-started.md)
+    - [架构图](/zh-cn/eggborn/basic/architecture-diagram.md)
 * 模块开发
     - [介绍](/zh-cn/eggborn/module/)
     - [模块前端开发](/zh-cn/eggborn/module/front.md)

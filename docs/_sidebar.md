@@ -1,2 +1,2 @@
-* [Home](/)
-* [Guide](guide/)
+* The Basics
+    - [Introduction](/)
