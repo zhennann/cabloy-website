@@ -16,7 +16,7 @@ $ npm i
 
 ## 配置MySQL
 
-修改文件: `src/backend/config/config.unittest.js`
+`src/backend/config/config.unittest.js`
 
 ``` javascript
   // mysql
@@ -34,7 +34,7 @@ $ npm i
   };
 ```
 
-修改文件: `src/backend/config/config.local.js`
+`src/backend/config/config.local.js`
 
 ``` javascript
   // mysql
@@ -52,7 +52,7 @@ $ npm i
   };
 ```
 
-修改文件: `src/backend/config/config.prod.js`
+`src/backend/config/config.prod.js`
 
 ``` javascript
   // mysql
@@ -70,6 +70,12 @@ $ npm i
   };
 ```
 
+## 测试
+
+```bash
+$ npm run test:backend
+```
+
 ## 运行
 
 启动后端服务
@@ -82,8 +88,4 @@ $ npm run dev:backend
 $ npm run dev:front
 ```
 
-## 测试
 
-```bash
-$ npm run test:backend
-```

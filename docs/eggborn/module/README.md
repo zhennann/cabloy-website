@@ -18,7 +18,7 @@ Such as the module `egg-born-module-a-version`, the naming information is as fol
 The module supports both asynchronous loading and synchronous loading. Generally, the default is asynchronous loading. If you want to change it into synchronous loading, just add `-sync` suffix behind the module name, such as the module `egg-born-module-a-components-sync`.
 
 ## Create a module
-Goto path`src/module`, run the scaffolding to create the module files skeleton.
+
 ``` bash
-$ egg-born module_relative_name
+$ egg-born src/module/test-todo --type=module
 ```

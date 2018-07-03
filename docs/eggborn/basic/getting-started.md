@@ -9,14 +9,10 @@ $ npm install -g egg-born
 ## Create a project
 
 ``` bash
-$ egg-born project_name
-$ cd project_name
-$ npm install
+$ egg-born cabloy-demo --type=cabloy
+$ cd cabloy-demo
+$ npm i
 ```
-
-> Currently, EggBorn.js offers two scaffolds:
-> - `cabloy`  -- full stack project template
-> - `module`  -- module template
 
 ## Configure MySQL
 

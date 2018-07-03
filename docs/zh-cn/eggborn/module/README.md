@@ -16,7 +16,7 @@
 模块既支持异步加载，也支持同步加载。默认是异步加载，如果要同步加载，只需在模块名称后面加上`-sync`后缀，如模块`egg-born-module-a-components-sync`。
 
 ## 新建模块
-进入`src/module`目录执行脚手架，创建模块文件骨架
+
 ``` bash
-$ egg-born module_relative_name
+$ egg-born src/module/test-todo --type=module
 ```

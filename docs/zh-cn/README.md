@@ -14,6 +14,8 @@ Cabloy.js在EggBorn.js的基础上，通过“业务模块”的方式，实现�
 
 ## Cabloy.js架构图
 
+![](./assets/images/cabloy.png)
+
 ## 先决条件
 
 !> 凡是可以用 JavaScript 来写的应用，最终都会用 JavaScript 来写。 ——Atwood定律
@@ -29,3 +31,7 @@ Cabloy.js正是对这一名言的探索之作。Cabloy.js不重复造轮子，�
    - [koa.js](https://koajs.com)
    - [Egg.js](https://eggjs.org)
    - [EggBorn.js](/zh-cn/eggborn/basic/)
+
+## Cabloy名字的由来
+
+
