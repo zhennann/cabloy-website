@@ -69,9 +69,6 @@ module.exports = app => {
           autoRight: 1,
           atomClassName: 'todo',
           action: 'create',
-          actionModule: 'a-base',
-          actionComponent: 'action',
-          actionPath: '/a/base/atom/edit?atomId={{atomId}}&itemId={{itemId}}&atomClassId={{atomClassId}}&atomClassName={{atomClassName}}&atomClassIdParent={{atomClassIdParent}}',
           sorting: 1,
           menu: 1,
         },
@@ -81,7 +78,6 @@ module.exports = app => {
           autoRight: 1,
           atomClassName: 'todo',
           action: 'read',
-          actionPath: '/a/base/atom/list?module={{module}}&atomClassName={{atomClassName}}',
           sorting: 1,
           menu: 1,
         },
@@ -133,8 +129,6 @@ module.exports = app => {
 >   - scene: 菜单的显示场景，用于菜单归类显示
 >   - autoRight: 菜单权限是否与原子指令保持一致。如果一致，当角色被赋予原子指令权限时，也相应地拥有此菜单权限
 >   - atomClassName, action: 如果autoRight=1, 通过这两个字段查找对应的原子指令
->   - actionModule, actionComponent: 当点击菜单时，执行这两个字段对应的前端组件
->   - actionPath: 当点击菜单时，打开此字段对应的页面链接
 >   - sorting: 菜单排序值
 >   - menu: 是否为菜单。如果menu=0就是后端功能，一般对应一个后端API接口 
 > - listTodo: 显示Todo条目清单
@@ -237,13 +231,150 @@ module.exports = app => {
 
 ## backend/src/controller/version.js
 
+本文件定义version控制器。
+
+```javascript
+module.exports = app => {
+  class VersionController extends app.Controller {
+
+    async update() {
+      await this.service.version.update(this.ctx.request.body);
+      this.ctx.success();
+    }
+
+    async init() {
+      await this.service.version.init(this.ctx.request.body);
+      this.ctx.success();
+    }
+
+    async test() {
+      await this.service.version.test(this.ctx.request.body);
+      this.ctx.success();
+    }
+
+  }
+  return VersionController;
+};
+```
+
+> - update: 对应路由version/update
+> - init: 对应路由version/init
+> - test: 对应路由version/test
+
 ## backend/src/controller/todo.js
+
+本文件定义todo控制器。
+
+```javascript
+module.exports = app => {
+
+  class TodoController extends app.Controller {
+
+    async create() {
+      const res = await this.ctx.service.todo.create(this.ctx.request.body);
+      this.ctx.success(res);
+    }
+
+    async read() {
+      const res = await this.ctx.service.todo.read(this.ctx.request.body);
+      this.ctx.success(res);
+    }
+
+    async select() {
+      const res = await this.ctx.service.todo.select(this.ctx.request.body);
+      this.ctx.success(res);
+    }
+
+    async write() {
+      await this.ctx.service.todo.write(this.ctx.request.body);
+      this.ctx.success();
+    }
+
+    async delete() {
+      await this.ctx.service.todo.delete(this.ctx.request.body);
+      this.ctx.success();
+    }
+
+    async action() {
+      const res = await this.ctx.service.todo.action(this.ctx.request.body);
+      this.ctx.success(res);
+    }
+
+    async enable() {
+      const res = await this.ctx.service.todo.enable(this.ctx.request.body);
+      this.ctx.success(res);
+    }
+
+  }
+  return TodoController;
+};
+```
+
+> - create: 对应路由todo/create
+> - read: 对应路由todo/read
+> - select: 对应路由todo/select
+> - write: 对应路由todo/write
+> - delete: 对应路由todo/delete
+> - action: 对应路由todo/action
+> - enable: 对应路由todo/enable
 
 ## backend/src/services.js
 
+本文件定义所有的services。
+
+```javascript
+const version = require('./service/version.js');
+const todo = require('./service/todo.js');
+
+module.exports = app => {
+  const services = {
+    version,
+    todo,
+  };
+  return services;
+};
+```
+
 ## backend/src/service/version.js
 
+本文件定义service version。
+
+```javascript
+
+```
+
+
 ## backend/src/service/todo.js
+
+## backend/src/models.js
+
+本文件定义所有的数据模型。
+
+```javascript
+const todo = require('./model/todo.js');
+
+module.exports = app => {
+  const models = {
+    todo,
+  };
+  return models;
+};
+```
+
+## backend/src/model/todo.js
+
+本文件定义数据模型todo。
+
+```javascript
+module.exports = app => {
+  class Todo extends app.meta.Model {
+    constructor(ctx) {
+      super(ctx, { table: 'testTodo', options: { disableDeleted: false } });
+    }
+  }
+  return Todo;
+};
+```
 
 ## backend/src/config/locale/zh-cn.js
 
