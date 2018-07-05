@@ -2,5 +2,10 @@
 
 > The Ultimate Javascript Full Stack Business Development Platform, based on EggBornJS.
 
+** You can scan the qrcode below with your mobile device, for better experience. **
+
+![](./assets/images/cabloy-demo-qrcode.png)
+
 [GitHub](https://github.com/zhennann/cabloy)
 [Get Started](#introduction)
+[Demo Online](http://demo.cabloy.org)

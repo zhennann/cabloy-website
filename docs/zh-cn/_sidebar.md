@@ -4,7 +4,11 @@
     - [快速开始](/zh-cn/basic/getting-started.md)
 * 演示
     - [目标](/zh-cn/demo/goal.md)
+    - [快速体验](/zh-cn/demo/quick.md)
     - [创建模块](/zh-cn/demo/create-module.md)
+    - [文件清单](/zh-cn/demo/file.md)
+    - [启动服务](/zh-cn/demo/run.md)
+    - [测试驱动](/zh-cn/demo/test.md)
 * 基本概念
     - [原子]
     - [原子指令]
