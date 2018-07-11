@@ -2,6 +2,7 @@
     - [介绍](/zh-cn/)
     - [特性](/zh-cn/basic/feature.md)
     - [快速开始](/zh-cn/basic/getting-started.md)
+    - [如何阅读本文档](/zh-cn/basic/how.md)
 * 演示
     - [目标](/zh-cn/demo/goal.md)
     - [快速体验](/zh-cn/demo/quick.md)
@@ -10,11 +11,10 @@
     - [启动服务](/zh-cn/demo/run.md)
     - [测试驱动](/zh-cn/demo/test.md)
 * 基本概念
-    - [原子]
-    - [原子指令]
-    - [功能与菜单]
+    - [原子](/zh-cn/concept/atom.md)
+    - [功能与菜单](/zh-cn/concept/function.md)
+    - [用户](/zh-cn/concept/user.md)
     - [角色]
-    - [用户] 匿名、会话超时、代理等
     - [数据权限]
     - [功能权限]
 * 特性
@@ -36,4 +36,4 @@
     - [国际化]
     - [测试驱动]
     - [模块编译]
-    
+
