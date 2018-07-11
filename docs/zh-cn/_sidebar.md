@@ -14,8 +14,8 @@
     - [原子](/zh-cn/concept/atom.md)
     - [功能与菜单](/zh-cn/concept/function.md)
     - [用户](/zh-cn/concept/user.md)
-    - [角色]
-    - [数据权限]
+    - [角色](/zh-cn/concept/role.md)
+    - [原子权限]
     - [功能权限]
 * 特性
     - [运行环境]
