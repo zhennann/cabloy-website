@@ -19,6 +19,7 @@ EggBorn.js implements the third solution:
 
 ## EggBorn.js Technical Features
 
+- **Frontend and Backend Separation**: separating Frontend and Backend, so as for decoupling.
 - **Business Modularization**: The page components are arranged as modules.
 - **Loading Flexibility**: Modules can be loaded asynchronously or synchronously.
 - **Highly Modular Cohesion**: The module includes frontend page components and backend business logics.

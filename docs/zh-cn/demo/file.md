@@ -100,9 +100,9 @@ module.exports = app => {
 本节点定义`原子类型`。
 
 > - info: 原子类型的基本信息
->   - title: 原子类型的名称  
+>   - title: 原子类型的名称
 >   - tableName: 原子类型对应的数据表名称
-> - actions.review: 定义原子指令`review` 
+> - actions.review: 定义原子指令`review`
 >   - code: 指令代码，从101开始分配
 >   - title: 指令标题
 >   - flag: 指令对应的flag，当原子的flag等于某值时，此指令才有效
@@ -122,10 +122,10 @@ module.exports = app => {
 >   - autoRight: 菜单权限是否与原子指令保持一致。如果一致，当角色被赋予原子指令权限时，也相应地拥有此菜单权限
 >   - atomClassName, action: 如果autoRight=1, 通过这两个字段查找对应的原子指令
 >   - sorting: 菜单排序值
->   - menu: 是否为菜单。如果menu=0就是后端功能，一般对应一个后端API接口 
+>   - menu: 是否为菜单。如果menu=0就是后端功能，一般对应一个后端API接口
 > - listTodo: 显示Todo条目清单
 
-### meta.validation 
+### meta.validation
 
 本节点定义原子用到的`验证器`。
 
@@ -371,6 +371,7 @@ module.exports = app => {
           { roleName: 'authenticated', action: 'delete', scopeNames: 0 },
           { roleName: 'authenticated', action: 'read', scopeNames: 'authenticated' },
           { roleName: 'reviewer', action: 'review', scopeNames: 'authenticated' },
+          { roleName: 'superuser', action: 'review', scopeNames: 'authenticated' },
         ];
         const module = this.ctx.app.meta.modules[this.ctx.module.info.relativeName];
         const atomClass = await this.ctx.meta.atomClass.get({ atomClassName: 'todo' });

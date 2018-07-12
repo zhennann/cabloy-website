@@ -15,8 +15,8 @@
     - [功能与菜单](/zh-cn/concept/function.md)
     - [用户](/zh-cn/concept/user.md)
     - [角色](/zh-cn/concept/role.md)
-    - [原子权限]
-    - [功能权限]
+    - [原子授权](/zh-cn/concept/atomright.md)
+    - [功能授权](/zh-cn/concept/functionright.md)
 * 特性
     - [运行环境]
     - [多实例]
