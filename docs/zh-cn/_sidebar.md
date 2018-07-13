@@ -18,8 +18,8 @@
     - [原子授权](/zh-cn/concept/atomright.md)
     - [功能授权](/zh-cn/concept/functionright.md)
 * 特性
-    - [运行环境]
-    - [多实例]
+    - [运行环境](/zh-cn/feature/env.md)
+    - [多实例](/zh-cn/feature/instance.md)
     - [中间件]
     - [验证]
     - [数据权限]
