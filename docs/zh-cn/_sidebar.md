@@ -21,7 +21,7 @@
     - [运行环境](/zh-cn/feature/env.md)
     - [多实例](/zh-cn/feature/instance.md)
     - [中间件](/zh-cn/feature/middle.md)
-    - [验证]
+    - [验证](/zh-cn/feature/validate.md)
     - [缓存]
     - [钩子]
     - [启动项]
