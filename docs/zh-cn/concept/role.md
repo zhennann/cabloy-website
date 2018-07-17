@@ -44,7 +44,7 @@ Cabloy中的角色授权有两种传递机制：
 
 Cabloy提供的Api架构可以很方便的对`角色结构`和`角色授权`进行管理。当然，一般而言有这三个授权时机：
 
-### 1. `version/init`
+### 1. version/init
 
 这里进行的授权同时适用于`test`、`local`、`prod`三个运行环境，以模块`test-todo`为例：
 
@@ -95,7 +95,7 @@ async init(options) {
 }
 ```
 
-### 2. `version/test`
+### 2. version/test
 
 这里进行的授权同时适用于`test`、`local`两个运行环境，便于测试和开发。以模块`test-todo`为例：
 

@@ -13,7 +13,7 @@
 * 基本概念
     - [原子](/zh-cn/concept/atom.md)
     - [功能与菜单](/zh-cn/concept/function.md)
-    - [用户](/zh-cn/concept/user.md)
+    - [用户、匿名、代理](/zh-cn/concept/user.md)
     - [角色](/zh-cn/concept/role.md)
     - [原子授权](/zh-cn/concept/atomright.md)
     - [功能授权](/zh-cn/concept/functionright.md)
@@ -21,17 +21,15 @@
     - [运行环境](/zh-cn/feature/env.md)
     - [多实例](/zh-cn/feature/instance.md)
     - [中间件](/zh-cn/feature/middle.md)
+    - [启动项](/zh-cn/feature/startup.md)
+    - [队列](/zh-cn/feature/queue.md)
+    - [序列](/zh-cn/feature/sequence.md)
+    - [缓存](/zh-cn/feature/cache.md)
+    - [路由钩子](/zh-cn/feature/hook.md)
+    - [状态](/zh-cn/feature/status.md)
     - [验证](/zh-cn/feature/validate.md)
-    - [缓存]
-    - [钩子]
-    - [启动项]
-    - [队列]
-    - [序列]
-    - [设置]
-    - [状态]
-    - [代理]
-    - [认证]
-    - [国际化]
-    - [测试驱动]
-    - [模块编译]
+    - [设置](/zh-cn/feature/settings.md)
+    - [认证](/zh-cn/feature/auth.md)
+    - [测试驱动](/zh-cn/feature/test.md)
+    - [模块编译](/zh-cn/feature/compile.md)
 
