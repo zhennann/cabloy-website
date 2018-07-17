@@ -32,4 +32,5 @@
     - [认证](/zh-cn/feature/auth.md)
     - [测试驱动](/zh-cn/feature/test.md)
     - [模块编译](/zh-cn/feature/compile.md)
+* [GitHub贡献](/zh-cn/github.md)
 
