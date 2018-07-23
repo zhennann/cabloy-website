@@ -269,7 +269,7 @@ module.exports = app => {
 
 可通过两种方式禁用中间件：
 
-1. config配置
+#### 1. config配置
 
 `a-instance/backend/src/config/config.js`
 
@@ -284,7 +284,7 @@ config.middlewares = {
 };
 ```
 
-2. 后端路由
+#### 2. 后端路由
 
 `a-base/backend/src/routes.js`
 
