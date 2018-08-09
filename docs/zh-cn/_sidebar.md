@@ -18,6 +18,7 @@
     - [原子授权](/zh-cn/concept/atomright.md)
     - [功能授权](/zh-cn/concept/functionright.md)
 * 特性
+    - [移动优先 PC适配](/zh-cn/feature/layout.md)
     - [运行环境](/zh-cn/feature/env.md)
     - [多实例](/zh-cn/feature/instance.md)
     - [中间件](/zh-cn/feature/middle.md)
