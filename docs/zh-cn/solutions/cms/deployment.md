@@ -42,6 +42,8 @@ $ npm run build:front
 $ npm run start:backend
 ```
 
+- 别忘了创建MySQL数据库，并配置`src/backend/config/config.prod.js`
+
 ## 停止后端服务
 ``` bash
 $ npm run stop:backend
