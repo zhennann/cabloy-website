@@ -29,7 +29,7 @@ config.instances = [
 
 > - subdomain: 子域名
 > - password: 实例中用户`root`的访问密码
-> - title: 网址标题
+> - title: 网站标题
 > - meta.jsonp.whiteList: 白名单，只有白名单中的域名可以通过ajax访问后台API接口
 
 ## 构建前端代码
