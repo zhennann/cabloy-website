@@ -33,16 +33,22 @@ await this.ctx.model.todo.insert({
 
 必须先创建实例，才能提供相应的服务。创建`instance1.cabloy.org`对应的实例如下：
 
-`src/backend/config/config.local.js`
+`src/backend/config/config.prod.js`
 
 ```javascript
 // instances
 config.instances = [
-  { subdomain: 'instance1', password: '' },
+  { subdomain: 'instance1', password: '', title: '',
+    meta: {
+      jsonp: { whiteList: null },
+    },
+  },
 ];
 ```
 
 > - subdomain: 子域名
 > - password: 实例中用户`root`的访问密码
+> - title: 网址标题
+> - meta: 扩展信息
 
 !> `test`和`local`环境自动创建了与IP对应的缺省实例，从而方便测试与开发

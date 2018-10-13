@@ -1,0 +1,7 @@
+* [介绍](/zh-cn/solutions/cms/)
+* [快速开始](/zh-cn/solutions/cms/getting-started.md)
+* [参数配置](/zh-cn/solutions/cms/config.md)
+* [构建](/zh-cn/solutions/cms/build.md)
+* [目录](/zh-cn/solutions/cms/category.md)
+* [文章](/zh-cn/solutions/cms/article.md)
+* [部署](/zh-cn/solutions/cms/deployment.md)
