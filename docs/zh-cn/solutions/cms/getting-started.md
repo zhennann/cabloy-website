@@ -28,6 +28,8 @@ $ npm i egg-born-module-cms-themeblog
 
 ## 配置MySQL
 
+### 测试环境
+
 `src/backend/config/config.unittest.js`
 
 ``` javascript
@@ -46,6 +48,8 @@ $ npm i egg-born-module-cms-themeblog
   };
 ```
 
+### 开发环境
+
 `src/backend/config/config.local.js`
 
 ``` javascript
@@ -63,6 +67,8 @@ $ npm i egg-born-module-cms-themeblog
     },
   };
 ```
+
+### 生产环境
 
 `src/backend/config/config.prod.js`
 

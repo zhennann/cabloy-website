@@ -16,6 +16,8 @@ $ npm i
 
 ## 配置MySQL
 
+### 测试环境
+
 修改文件: `src/backend/config/config.unittest.js`
 
 ``` javascript
@@ -34,6 +36,8 @@ $ npm i
   };
 ```
 
+### 开发环境
+
 修改文件: `src/backend/config/config.local.js`
 
 ``` javascript
@@ -51,6 +55,8 @@ $ npm i
     },
   };
 ```
+
+### 生产环境
 
 修改文件: `src/backend/config/config.prod.js`
 

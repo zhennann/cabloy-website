@@ -16,6 +16,8 @@ $ npm i
 
 ## Configure MySQL
 
+### Environment: unittest
+
 Edit file: `src/backend/config/config.unittest.js`
 
 ``` javascript
@@ -34,6 +36,8 @@ Edit file: `src/backend/config/config.unittest.js`
   };
 ```
 
+### Environment: development
+
 Edit file: `src/backend/config/config.local.js`
 
 ``` javascript
@@ -51,6 +55,8 @@ Edit file: `src/backend/config/config.local.js`
     },
   };
 ```
+
+### Environment: production
 
 Edit file: `src/backend/config/config.prod.js`
 
