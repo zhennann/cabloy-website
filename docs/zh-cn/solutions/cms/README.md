@@ -6,7 +6,7 @@ Cabloy-CMS是基于CabloyJS全栈业务开发框架开发的“动静结合”�
 
 ## 在线演示
 
-[http://zhennann.me](http://zhennann.me)
+[https://zhennann.me](https://zhennann.me)
 
 ## 特性
 

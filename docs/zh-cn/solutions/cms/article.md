@@ -22,7 +22,7 @@ Cabloy-CMS采用开源组件[mavonEditor](https://github.com/hinesboy/mavonEdito
 请输入以下内容，并查看效果
 
 ```
-![5775337-414d62d7c1e152f2](http://zhennann.cabloy.org/api/a/file/file/download/00ca2e89235b47bba5b7e7580fc71834.jpg)
+![5775337-414d62d7c1e152f2](https://zhennann.cabloy.org/api/a/file/file/download/00ca2e89235b47bba5b7e7580fc71834.jpg)
 
 ## 一天到晚的鱼儿不停游
 

@@ -6,4 +6,4 @@
 
 [GitHub](https://github.com/zhennann/cabloy)
 [Get Started](#introduction)
-[Demo Online](http://demo.cabloy.org)
+[Demo Online](https://demo.cabloy.org)

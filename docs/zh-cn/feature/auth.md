@@ -14,7 +14,7 @@ Cabloy使用数据表`aAuth`统一管理`用户认证`信息，使用数据表`a
 
 ![](../assets/images/github-oauth.png)
 
-!> Authorization callback URL: http://demo.cabloy.org/api/a/authgithub/passport/a-authgithub/authgithub/callback
+!> Authorization callback URL: https://demo.cabloy.org/api/a/authgithub/passport/a-authgithub/authgithub/callback
 
 ### 2. 设置OAuth信息
 
