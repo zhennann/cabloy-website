@@ -12,15 +12,15 @@
 
 进入`设置/cms`页面
 
-![](../../assets/images/cms/01.png)
+![](../../../assets/images/cms/01.png)
 
 点击`站点/配置`，进入`站点配置`页面
 
-![](../../assets/images/cms/02.png)
+![](../../../assets/images/cms/02.png)
 
-点击右侧的![](../../assets/images/cms/03.png)，查看`缺省配置`
+点击右侧的![](../../../assets/images/cms/03.png)，查看`缺省配置`
 
-![](../../assets/images/cms/04.png)
+![](../../../assets/images/cms/04.png)
 
 从`缺省配置`拷贝需要修改的属性到`站点配置`页面，并修改成所需要的值。
 

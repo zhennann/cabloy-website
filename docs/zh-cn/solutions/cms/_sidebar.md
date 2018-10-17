@@ -1,7 +1,16 @@
 * [介绍](/zh-cn/solutions/cms/)
 * [快速开始](/zh-cn/solutions/cms/getting-started.md)
-* [参数配置](/zh-cn/solutions/cms/config.md)
-* [构建](/zh-cn/solutions/cms/build.md)
-* [目录](/zh-cn/solutions/cms/category.md)
-* [文章](/zh-cn/solutions/cms/article.md)
-* [部署](/zh-cn/solutions/cms/deployment.md)
+* 基础篇
+  - [参数配置](/zh-cn/solutions/cms/basic/config.md)
+  - [构建](/zh-cn/solutions/cms/basic/build.md)
+  - [目录](/zh-cn/solutions/cms/basic/category.md)
+  - [文章](/zh-cn/solutions/cms/basic/article.md)
+  - [部署](/zh-cn/solutions/cms/basic/deployment.md)
+* 进阶篇
+  - [目录属性]
+  - [文件属性]
+  - [渲染规则](/zh-cn/solutions/cms/advanced/rule.md)
+  - [文件结构](/zh-cn/solutions/cms/advanced/structure.md)
+  - [渲染流程](/zh-cn/solutions/cms/advanced/render.md)
+  - [后端环境对象]
+  - [前端环境对象]

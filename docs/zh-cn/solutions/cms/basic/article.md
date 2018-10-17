@@ -13,7 +13,7 @@
 - 目录：
 - 标签：支持多标签，用逗号隔开
 
-![](../../assets/images/cms/08.png)
+![](../../../assets/images/cms/08.png)
 
 ### 内容
 
@@ -75,13 +75,13 @@ Cabloy中所有的原子数据均有两个状态：`草稿`、`正常`。`草稿
 
 ### 提交并预览
 
-![](../../assets/images/cms/09.png)
+![](../../../assets/images/cms/09.png)
 
 首页
 
-![](../../assets/images/cms/10.png)
+![](../../../assets/images/cms/10.png)
 
 文章页
 
-![](../../assets/images/cms/11.jpg)
+![](../../../assets/images/cms/11.jpg)
 
