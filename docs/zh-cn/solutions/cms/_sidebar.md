@@ -12,8 +12,12 @@
   - [渲染流程](/zh-cn/solutions/cms/advanced/render.md)
   - [后端上下文对象](/zh-cn/solutions/cms/advanced/data-backend.md)
   - [前端环境对象](/zh-cn/solutions/cms/advanced/data-front.md)
-  - [举例：主题：cms-themeblog](/zh-cn/solutions/cms/advanced/example-cms-themeblog.md)
-  - [举例：插件：cms-pluginbase](/zh-cn/solutions/cms/advanced/example-cms-pluginbase.md)
-  - [举例：首页渲染](/zh-cn/solutions/cms/advanced/example-index.md)
+  - [主题：cms-themeblog](/zh-cn/solutions/cms/advanced/theme-cms-themeblog.md)
+  - [主题：cms-themeaws](/zh-cn/solutions/cms/advanced/theme-cms-themeaws.md)
+  - [插件：cms-pluginbase](/zh-cn/solutions/cms/advanced/plugin-cms-pluginbase.md)
+  - [插件：cms-pluginarticle](/zh-cn/solutions/cms/advanced/plugin-cms-pluginarticle.md)
+  - [插件：cms-pluginsidebar](/zh-cn/solutions/cms/advanced/plugin-cms-pluginsidebar.md)
+  - [插件：cms-pluginmarkdowngithub](/zh-cn/solutions/cms/advanced/plugin-cms-pluginmarkdowngithub.md)
+  - [插件：cms-plugintrack](/zh-cn/solutions/cms/advanced/plugin-cms-plugintrack.md)
   - [目录属性]
   - [文件属性]

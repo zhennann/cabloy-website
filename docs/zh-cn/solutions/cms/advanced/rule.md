@@ -2,7 +2,7 @@
 
 ## 渲染时机
 
-为了平衡渲染性能，提供了两个渲染时机：一次构建、文章单独渲染
+为了平衡渲染性能，提供了两个渲染时机：`一次构建`、`文章单独渲染`
 
 ### 一次构建
 
@@ -16,7 +16,7 @@
 
 ## SEO相关
 
-SEO文件有三个：robots.txt、sitemapindex.xml、sitemap.xml
+SEO文件有三个：`robots.txt`、`sitemapindex.xml`、`sitemap.xml`
 
 SEO文件均在`构建`时一次性输出
 
@@ -32,7 +32,7 @@ SEO文件均在`构建`时一次性输出
 
 模块`a-cms`只提供了基本的渲染机制和渲染骨架，具体的页面布局、元素、功能，都通过`主题`和`插件`的组合实现。这种模式，既可以快速开发部署，也可以充分释放CMS的可扩展性和灵活性
 
-Cabloy-CMS目前提供了主题模块`cms-themeblog`和插件模块`cms-pluginbase`、`cms-plugintrack`，实现了全功能的博客站点，后续也会持续推出一系列`主题`和`插件`
+Cabloy-CMS目前提供了主题模块`cms-themeblog`、`cms-themeaws`和插件模块`cms-pluginbase`、`cms-pluginarticle`、`cms-pluginsidebar`、`cms-pluginmarkdowngithub`、`cms-plugintrack`，实现了全功能的博客站点，后续也会持续推出一系列`主题`和`插件`
 
 您可以自由组合`主题`和`插件`，甚至实现自己的`主题`和`插件`，呈现完全不同的站点效果。
 

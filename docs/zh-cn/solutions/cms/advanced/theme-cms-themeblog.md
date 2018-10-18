@@ -1,4 +1,4 @@
-# 举例：主题：cms-themeblog
+# 主题：cms-themeblog
 
 模块`cms-themeblog`是官方提供的博客主题
 
@@ -9,8 +9,6 @@
 为了在版本迭代过程中保持代码一致性，从而避免版本冲突，`主题`需要显式声明依赖了哪些`插件`模块
 
 通过声明`插件`模块的依赖关系，当安装`主题`模块时，相应的`插件`模块也会自动安装
-
-比如，主题`cms-themeblog`目前依赖两个插件模块：`cms-pluginbase`, `cms-plugintrack`
 
 `cms-themeblog/package.json`
 
@@ -31,11 +29,16 @@
   ...
   "dependencies": {
     ...
-    "egg-born-module-cms-pluginbase": "^1.0.9",
+    "egg-born-module-cms-pluginbase": "^1.1.0",
+    "egg-born-module-cms-pluginarticle": "^1.0.0",
+    "egg-born-module-cms-pluginsidebar": "^1.0.0",
+    "egg-born-module-cms-pluginmarkdowngithub": "^1.0.0",
     "egg-born-module-cms-plugintrack": "^1.0.1"
   }
 }
 ```
+
+- `"theme": true`: 声明是`主题`模块
 
 ## 安装主题
 
@@ -233,14 +236,36 @@ ${tagsText}
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="generator" content="Cabloy-CMS" />
 <link rel="shortcut icon" href="<%=url('assets/images/favicon.ico')%>" type="image/x-icon">
-<%- await include('../../plugins/cms-pluginbase/header/meta.ejs') %>
+
+<%- await include('../../plugins/cms-pluginarticle/header/meta.ejs') %>
+
+<%- await include('../../plugins/cms-pluginmarkdowngithub/header/css.ejs') %>
 <%- await include('../../plugins/cms-pluginbase/header/css.ejs') %>
+<%- await include('../../plugins/cms-pluginarticle/header/css.ejs') %>
+<%- await include('../../plugins/cms-pluginsidebar/header/css.ejs') %>
+
 <%- await include('../../plugins/cms-pluginbase/header/js.ejs') %>
+<%- await include('../../plugins/cms-pluginarticle/header/js.ejs') %>
+<%- await include('../../plugins/cms-pluginsidebar/header/js.ejs') %>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="__CSS__">
+__ENV__
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
 <%
   // pluginbase init
   js('../../plugins/cms-pluginbase/assets/js/init.js.ejs');
+  js('../../plugins/cms-pluginarticle/assets/js/init.js.ejs');
+  js('../../plugins/cms-pluginsidebar/assets/js/init.js.ejs');
 %>
+
 <%
   // css
   css('../../assets/css/site.css.ejs');
@@ -252,20 +277,25 @@ ${tagsText}
 - 通过`include`包含插件`cms-pluginbase`的模版文件
 - 通过`js`声明使用的JS文件
 - 通过`css`声明使用的CSS文件
+- `__CSS__`: CSS文件占位符
+- `__ENV__`: 前端环境对象占位符
 
 ### layout/footer.ejs
 
 ``` html
   </div> <!-- container -->
   <footer>
-      <span class="small">Powered by <a target="_blank" href="https://cms.cabloy.org">Cabloy-CMS</a> | Theme - <a target="_blank" href="https://github.com/zhennann/egg-born-module-cms-themeblog">cms-themeblog</a></span>
-    </footer>
-  <%- await include('../plugins/cms-pluginbase/footer.ejs') %>
+      <span class="small">Powered by <a target="_blank" href="https://cms.cabloy.org">Cabloy-CMS</a> | Theme - <a target="_blank" href="<%=site._theme.url%>"><%=site._theme.name%></a></span>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="__JS__"></script>
   <%- await include('../plugins/cms-plugintrack/track.ejs') %>
 </body>
 </html>
 ```
 
-- 通过`include`包含插件`cms-pluginbase`和`cms-plugintrack`的模版文件
+- `__JS__`: JS文件占位符
+
 
 
