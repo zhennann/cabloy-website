@@ -19,5 +19,5 @@
   - [插件：cms-pluginsidebar](/zh-cn/solutions/cms/advanced/plugin-cms-pluginsidebar.md)
   - [插件：cms-pluginmarkdowngithub](/zh-cn/solutions/cms/advanced/plugin-cms-pluginmarkdowngithub.md)
   - [插件：cms-plugintrack](/zh-cn/solutions/cms/advanced/plugin-cms-plugintrack.md)
-  - [目录属性]
-  - [文件属性]
+  - [再谈目录：高级属性](/zh-cn/solutions/cms/advanced/category.md)
+  - [再谈文章：高级属性](/zh-cn/solutions/cms/advanced/article.md)
