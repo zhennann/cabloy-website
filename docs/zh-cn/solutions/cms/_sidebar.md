@@ -21,3 +21,5 @@
   - [插件：cms-plugintrack](/zh-cn/solutions/cms/advanced/plugin-cms-plugintrack.md)
   - [再谈目录：高级属性](/zh-cn/solutions/cms/advanced/category.md)
   - [再谈文章：高级属性](/zh-cn/solutions/cms/advanced/article.md)
+* [制作主题](/zh-cn/solutions/cms/create-theme.md)
+* [制作插件](/zh-cn/solutions/cms/create-plugin.md)
