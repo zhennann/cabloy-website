@@ -39,8 +39,10 @@ await this.ctx.model.todo.insert({
 // instances
 config.instances = [
   { subdomain: 'instance1', password: '', title: '',
-    meta: {
-      jsonp: { whiteList: null },
+    config: {
+      'a-base': {
+        jsonp: { whiteList: '' },
+      },
     },
   },
 ];
@@ -49,6 +51,6 @@ config.instances = [
 > - subdomain: 子域名
 > - password: 实例中用户`root`的访问密码
 > - title: 网址标题
-> - meta: 扩展信息
+> - config: 配置信息
 
 !> `test`和`local`环境自动创建了与IP对应的缺省实例，从而方便测试与开发

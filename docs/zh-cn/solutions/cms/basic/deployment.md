@@ -20,8 +20,10 @@ Cabloy支持多实例，实例与网站子域名一一对应，不同实例的�
 // instances
 config.instances = [
   { subdomain: 'admin', password: '', title: '',
-    meta: {
-      jsonp: { whiteList: 'example.com' },
+    config: {
+      'a-base': {
+        jsonp: { whiteList: 'example.com' },
+      },
     },
   },
 ];
@@ -30,7 +32,7 @@ config.instances = [
 > - subdomain: 子域名
 > - password: 实例中用户`root`的访问密码
 > - title: 网站标题
-> - meta.jsonp.whiteList: 白名单，只有白名单中的域名可以通过ajax访问后台API接口
+> - config['a-base'].jsonp.whiteList: 白名单，只有白名单中的域名可以通过ajax访问后端API接口
 
 ## 构建前端代码
 ``` bash
