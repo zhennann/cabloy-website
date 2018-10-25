@@ -29,14 +29,11 @@
 `cms-pluginarticle/backend/cms/plugin/assets/js/init.js.ejs`
 
 ``` javascript
-$(document).ready(function() {
-  // brothers
-  util.article.brothers({container:'.brothers'});
-});
-
 $(document).on('echo-ready', function() {
   // stats
   util.article.stats();
+  // brothers
+  util.article.brothers({container:'.brothers'});
   // comments
   util.article.comments({container:'.comments'});
 });

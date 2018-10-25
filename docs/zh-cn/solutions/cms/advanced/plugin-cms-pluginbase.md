@@ -85,6 +85,7 @@ echo() {
 ``` javascript
 {
   ajax: [Function],
+  performAction: [Function],
   combineImageUrl: [Function],
   echo: [Function],
   formatDateTime: [Function],
@@ -101,6 +102,7 @@ echo() {
 |名称|类型|说明|
 |-|-|-|
 |ajax|方法|访问后端服务API接口|
+|performAction|方法|访问后端服务API接口的统一入口|
 |combineImageUrl|方法|组合图片URL，自动匹配设备像素比|
 |echo|方法|用于访问后端服务API，返回当前用户的登录信息，并触发JQuery事件`echo-ready`|
 |formatDateTime|方法|根据当前站点配置格式化时间|

@@ -21,12 +21,9 @@
 `cms-pluginsidebar/backend/cms/plugin/assets/js/init.js.ejs`
 
 ``` javascript
-$(document).ready(function() {
+$(document).on('echo-ready', function() {
   // tags
   util.sidebar.tags({container:'.panel-tags'});
-});
-
-$(document).on('echo-ready', function() {
   // recent comments
   util.sidebar.commentsRecent({container:'.panel-comments-recent'});
 });

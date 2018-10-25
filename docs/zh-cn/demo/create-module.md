@@ -8,6 +8,12 @@
 $ egg-born src/module/test-todo --type=module
 ```
 
+如果想进一步简化代码量，可以使用基于业务的`模块模版`：`module-business`
+
+```bash
+$ egg-born src/module/test-todo --type=module-business
+```
+
 ## 命名约定
 为了不断沉淀业务模块，达到高度可复用的效果，所有模块的命名空间必须充分隔离，避免相互污染与冲突，故采用如下命名方式：
 > egg-born-module-{providerId}-{moduleName}
